@@ -1,0 +1,93 @@
+# ========= 强制屏蔽：不要提交 =========
+# Node / JS 构建产物
+node_modules/
+.pnp.*
+.yarn/
+.npm/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+.vite/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Source maps（非常大，不应进仓库）
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Java / Kotlin
+target/
+*.class
+*.jar
+*.war
+
+# Go
+vendor/
+
+# Rust
+target/
+
+# 二进制
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+# 密钥 / 配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志 / 临时
+*.log
+logs/
+*.tmp
+*.bak
+*.orig
+
+# 本地评分产出
+.grading/
+
+# macOS 额外
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
